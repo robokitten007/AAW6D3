@@ -17,10 +17,5 @@ Rails.application.routes.draw do
   put '/users/:id', to: 'users#update'
 
   delete '/users/:id', to: 'users#destroy'
-
-
-
-
-
-  
+  # the forward slash is necessary
 end
